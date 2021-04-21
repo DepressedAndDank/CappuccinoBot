@@ -1,0 +1,42 @@
+{
+  "name": "cappuccino",
+  "version": "21.4.21",
+  "description": "Everyone's new favorite coffee themed Discord bot.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && node .",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DepressedAndDank/CappuccinoBot.git"
+  },
+  "keywords": [
+    "Cappuccino",
+    "Coffee",
+    "Latte",
+    "TypeScript",
+    "JavaScript",
+    "Discord",
+    "Bot"
+  ],
+  "author": "DepressedAndDank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DepressedAndDank/CappuccinoBot/issues"
+  },
+  "homepage": "https://github.com/DepressedAndDank/CappuccinoBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "ws": "^7.4.5",
+    "ws-await": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.2",
+    "@types/ws": "^5.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^3.4.3"
+  }
+}
